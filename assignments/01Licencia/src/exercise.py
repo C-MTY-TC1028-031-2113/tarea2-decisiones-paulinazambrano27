@@ -1,7 +1,6 @@
 
 def main():
-    pass
-   edad = int(input("Ingresa tu edad: "))
+    edad = int(input("Ingresa tu edad: "))
     if edad < 18 and edad > 0:
           print("No cumples con los requisitos")
     elif edad <= 10:
@@ -14,8 +13,7 @@ def main():
             print("No cumples requisitos")   
           elif i != "n" or "s" :
             print("Respuesta incorrecta")
-     
-
+    pass
 
 if __name__ == '__main__':
     main()
