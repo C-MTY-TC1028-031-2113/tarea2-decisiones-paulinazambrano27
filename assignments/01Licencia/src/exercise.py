@@ -1,8 +1,9 @@
 
 def main():
+    
     edad = int(input("Ingresa tu edad: "))
     if edad < 18 and edad > 0:
-          print("No cumples con los requisitos")
+          print("No cumples requisitos")
     elif edad <= 10:
           print("Respuesta incorrecta")
     elif edad >= 18:
