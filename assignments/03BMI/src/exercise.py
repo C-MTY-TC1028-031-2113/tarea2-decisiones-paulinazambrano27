@@ -5,7 +5,7 @@ def main():
     if altura > 0 and peso > 0:
        imc = peso / altura ** 2
        if imc < 20:
-          print("PESO BAJO:")
+          print("PESO BAJO")
        elif imc < 25:
           print("NORMAL")
        elif imc < 30:
